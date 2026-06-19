@@ -1,24 +1,35 @@
-Request Tracker
+ Request Tracker App
 
-Project Description
-Request Tracker is a simple web application that allows users to submit, view, and manage requests such as feedback, bugs, feature requests, and general inquiries. It demonstrates form handling, local storage, and basic CRUD-style operations in the browser.
-
-
+ Overview
+A simple request tracking system where users can submit feedback, issues, or ideas and track their status.
 
 Features
-- Submit new requests (name, email, company, type, priority, message)
-- View all submitted requests in a list
+- Submit requests with name, email, type, and priority
+- View submitted requests in a list
 - Update request status (New, In Review, Resolved, Rejected)
 - Filter requests by status
-- Persistent storage using localStorage (data remains after refresh)
-
+- Data persists using localStorage
 
  Tech Stack
 - HTML
 - CSS
-- JavaScript (Vanilla)
-- LocalStorage
+- JavaScript 
+- localStorage
 
+How to Run
+1. Clone repository
+2. Open index.html in browser using https://github.com/Collette-11/request-tracker.git
 
- How to Run Locally
-1. Clone the repository:
+Deployment
+Deployed using Netlify 
+
+ Challenges
+- Managing state updates in localStorage
+- Keeping UI in sync after status changes
+- Designing a simple and clean interface
+
+ Future Improvements
+- Add backend database
+- Add authentication
+- Add search functionality
+- Export requests to CSV
